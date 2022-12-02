@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px;
+    position: sticky;
+    top: 0em;
+}
+.right{
+    margin-right: 1em;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.items{
+    display: flex;
+    padding: 0.5em;
+}
+
+.content{
+    padding-top: 1.5em;
+    padding-right: 4em;
+    padding-left: 3em;
+}
+
+img{
+    height: 90vh;
+    width: 50vw;
+    padding-top: 1.5em;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    margin-top: 2em;
+    padding: 0.5em;
+    width: 12em;
+}
